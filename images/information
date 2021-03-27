@@ -4,6 +4,7 @@ Font color: #AA2423
 Font size: 40 pt
 Kerning: 10
 Leading: 48 (auto)
+Highlight: #EFF0F1
 
 !!! LEFT TOOLBAR !!!
 - how can we support AAPI NC folks...
@@ -17,7 +18,6 @@ Font color: #AA2423
 Font size: 40 pt
 Kerning: 5
 Leading: 48
-
 
 !!! TOP TOOLBAR !!!
 Font: Baskerville BT Bold
