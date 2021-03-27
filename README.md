@@ -1,5 +1,7 @@
 # cung-nhau
-![alt text](https://github.com/mtldinh/cung-nhau/blob/main/logos/Artboard%202.png?raw=true)
+<p align="center">
+  <src="https://github.com/mtldinh/cung-nhau/blob/main/logos/Artboard%202.png">
+</p>
 
 <p>An AAPI resources, North Carolina focused website that educates and uplifts the AAPI community after recent violence during the COVID-19 pandemic.</p>
 
