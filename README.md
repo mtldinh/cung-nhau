@@ -1,6 +1,7 @@
 # cung-nhau
+
 <p align="center">
-  <src="https://github.com/mtldinh/cung-nhau/blob/main/logos/Artboard%202.png">
+  <img src="https://github.com/mtldinh/cung-nhau/blob/main/logos/Artboard%202.png" alt="Horizontal logo for cung nhau"/>
 </p>
 
 <p>An AAPI resources, North Carolina focused website that educates and uplifts the AAPI community after recent violence during the COVID-19 pandemic.</p>
