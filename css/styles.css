@@ -7,3 +7,27 @@ body {
   color: #AA2423;
   font-size: 60pt;
 }
+
+/* Add 12 Avenir 95 Black 09173 */
+
+@font-face {
+  font-family: '12-avenir-95-black-09173';
+  src: url('12-avenir-95-black-09173.eot'); /* IE9 Compat Modes */
+  src: url('12-avenir-95-black-09173.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('12-avenir-95-black-09173.woff2') format('woff2'), /* Super Modern Browsers */
+       url('12-avenir-95-black-09173.woff') format('woff'), /* Pretty Modern Browsers */
+       url('12-avenir-95-black-09173.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('12-avenir-95-black-09173svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* Add Baskerville Bold */
+
+@font-face {
+  font-family: 'Baskerville-Bold';
+  src: url('Baskerville-Bold.eot'); /* IE9 Compat Modes */
+  src: url('Baskerville-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Baskerville-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('Baskerville-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('Baskerville-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Baskerville-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
