@@ -1,4 +1,4 @@
-# about this project
+# about
 
 <p align="center">
   <img src="https://github.com/mtldinh/cung-nhau/blob/main/logos/Artboard%202.png" alt="Horizontal logo for cùng nhau"/>
