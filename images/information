@@ -46,9 +46,9 @@ it is imperative that we come together as a community to learn about AAPI
 history and speak out against AAPI racism.
 Font: Crimson
 Font style: BoldItalic
-Font size: 50 pt
+Font size: 40 pt
 Kerning: 0
-Leading: 60
+Leading: 45.6
 Font color: #000000
 Font color for "cung nhau": #AA2423
 
@@ -57,9 +57,9 @@ the North Carolina AAPI community, after ongoing targeted
 violence and AAPI racism throughout the COVID-19 pandemic.
 Font: Crimson
 Font style: Semibold
-Font size: 48 pt
+Font size: 38 pt
 Kerning: 0
-Leading: 60
+Leading: 45.6
 Font color: #000000
 
 
@@ -69,9 +69,9 @@ direct action that focuses on solidarity and love towards our
 communities.
 Font: Crimson
 Font style: Semibold
-Font size: 48 pt
+Font size: 38 pt
 Kerning: 0
-Leading: 60
+Leading: 45.6
 Font color: #000000
 
 paragraph 4: cúng nhau is a DiamondHacks NCSU (hackathon) project 
@@ -81,10 +81,15 @@ We hope you utilize the resources and enjoy the website!
 Font: Crimson
 Font style: Semibold
 cúng nhau Font Style: SemiboldItalic
-Font size: 48 pt
+Font size: 38 pt
 Kerning: 0
-Leading: 60
+Leading: 45.6
 Font color: #000000
 
-
-
+paragraph 5: We hope you utilize the resources and enjoy the website!
+Font: Crimson
+Font style: Semibold
+Font size: 38 pt
+Kerning: 0
+Leading: 45.6
+Font color: #000000
