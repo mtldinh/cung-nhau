@@ -1,3 +1,5 @@
 Mock-ups of home page and other pages made in Adobe Illustrator
-fonts: TBA
-colors: TBA
+all references under images folder, file called "information"
+
+logo is warped incorrectly, correct logo is under logos folder
+
