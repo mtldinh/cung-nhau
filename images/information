@@ -1,3 +1,6 @@
+!!! BACKGROUND !!!
+Color: #F4D591
+
 !!! LINKED PAGES (readings, organizations, donations) !!!
 Font: 12 Avenir 95 Black 09173
 Font color: #AA2423
@@ -11,6 +14,7 @@ Highlight: #EFF0F1
 Font: 12 Avenir 95 Black 09173
 Font color: #AA2423
 Font size: 55 pt
+text: how can we support AAPI NC folks in 2021?
 
 - made with love...
 Font: 12 Avenir 95 Black 09173
@@ -18,6 +22,7 @@ Font color: #AA2423
 Font size: 40 pt
 Kerning: 5
 Leading: 48
+text: made with love by team lorem ipsum
 
 !!! TOP TOOLBAR !!!
 Font: Baskerville BT Bold
@@ -25,7 +30,61 @@ Font color: #AA2423
 Font size: 60 pt
 Leading: 71 pt
 Kerning: 0 pt
+text: home contact about  
+
+!!! ABOUT PAGE !!!
+- left toolbar (CHANGE)
+Font: 12 Avenir 95 Black 09173
+Font color: #AA2423
+Font size: 55 pt
+TEXT: about the mission of cung nhau
+* could be centered relative to the logo
+
+- text:
+paragraph 1: “cúng nhau” is the Vietnamese word for together. In a time of heightened violence for AAPI individuals,
+it is imperative that we come together as a community to learn about AAPI
+history and speak out against AAPI racism.
+Font: Crimson
+Font style: BoldItalic
+Font size: 50 pt
+Kerning: 0
+Leading: 60
+Font color: #000000
+Font color for "cung nhau": #AA2423
+
+paragraph 2: This website provides resources for educating and uplifting 
+the North Carolina AAPI community, after ongoing targeted
+violence and AAPI racism throughout the COVID-19 pandemic.
+Font: Crimson
+Font style: Semibold
+Font size: 48 pt
+Kerning: 0
+Leading: 60
+Font color: #000000
 
 
-!!! BACKGROUND !!!
-Color: #F4D591
+paragraph 3: With a particular focus on North Carolina folks, we wanted
+to provide an accessible website with useful information and 
+direct action that focuses on solidarity and love towards our 
+communities.
+Font: Crimson
+Font style: Semibold
+Font size: 48 pt
+Kerning: 0
+Leading: 60
+Font color: #000000
+
+paragraph 4: cúng nhau is a DiamondHacks NCSU (hackathon) project 
+made by four women of color: Minh-Thu Dinh, 
+Namrata Rajaraman, Cynthia Rios, and Chitra Srinivasan.
+We hope you utilize the resources and enjoy the website!
+Font: Crimson
+Font style: Semibold
+cúng nhau Font Style: SemiboldItalic
+Font size: 48 pt
+Kerning: 0
+Leading: 60
+Font color: #000000
+
+
+
