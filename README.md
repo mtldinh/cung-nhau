@@ -10,5 +10,6 @@
 the elderly, who have disproportionally received a large amount of violence. </p>
 
 <p>Access our website <a href=https://mtldinh.github.io/cung-nhau/>here</a>.
+<p>View our presentation <a href=https://docs.google.com/presentation/d/1Y1XOu9JZb-rJKCsnKkOBQSoWGaVrckkFIafgm0NpxFc/edit#slide=id.gcaf6eee495_0_17>here!</a></p>
 
 <p>This project is created for DiamondHacks NCSU 2021 by Minh-Thu Dinh, Namrata Rajaraman, Cynthia Rios, and Chitra Srinivasan.</p>
