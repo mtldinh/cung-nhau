@@ -13,6 +13,8 @@
   <link href="css/simple-sidebar.css" rel="stylesheet">
   <link href=' https://bigfontsite.com/fonts/12-avenir-95-black-09173.html' rel='stylesheet' type='text/css'>
   <link rel="icon" href="images/favicon_folder/favicon.ico">
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <title>cùng nhau</title>
   <style>
@@ -29,6 +31,7 @@
     }
     body {
       background-color: #F4D591;
+      padding-top: 50px;
     }
     button-text{
       color: #AA2423;
@@ -91,8 +94,48 @@
         flex: 0 1 auto; /* Default */
         list-style-type: none;
     }
+    /* Style all font awesome icons */
+    .fa {
+      padding: 8px;
+      font-size: 30px;
+      height: 45px;
+      width: 45px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+
+    .fa:hover {
+        opacity: 0.7;
+        color: #F4D591;
+    }
+
+    .fa-facebook {
+      background: black;
+      color: #F4D591;
+    }
+
+    .fa-twitter {
+      background: black;
+      color: #F4D591;
+    }
+
+    .fa-instagram {
+      background: black;
+      color: #F4D591;
+    }
   </style>
+
 </head>
+<div id="google_translate_element"></div>
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+  }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
 <style>
   @font-face {
     font-family: "12-avenir-95-black-09173";
@@ -115,7 +158,7 @@
   <div class="d-flex" id="wrapper">
 
     <!-- Sidebar -->
-    <nav id="sidebar" style="padding-top: 50px;">
+    <div class="col-md-3">
       <img src="logos/Artboard 1.png"/>
       <h2>
         how can you support AAPI folks in 2021?
@@ -123,19 +166,24 @@
       <h3>
         made with love by team lorem ipsum
       </h3>
+      <h3>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+      </h3>
       <h4 style="color: red;">
         AAPI = Asian-American and Pacific Islanders
       </h4>
-    </nav>
+    </div>
     <!-- /#sidebar-wrapper -->
 
     <!-- Page Content -->
-    <div class="col-md-8">
+    <div class="col-md-9">
       <center>
         <nav class="navbar navbar-expand-lg">
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mt-lg-0" >
-              <li class="nav-item active">
+            <ul class="navbar-nav mt-lg-0">
+              <li class="nav-item">
                 <a class="nav-link" href="#">home</a>
               </li>
               <li class="nav-item">
@@ -182,6 +230,7 @@
       e.preventDefault();
       $("#wrapper").toggleClass("toggled");
     });
+
   </script>
 
 </body>
