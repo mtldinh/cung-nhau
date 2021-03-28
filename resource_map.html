@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c431f117baa244c5bc305d3aa00cd1ea {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c431f117baa244c5bc305d3aa00cd1ea" ></div>
+        
+</body>
+<script>    
+    
+            var map_c431f117baa244c5bc305d3aa00cd1ea = L.map(
+                "map_c431f117baa244c5bc305d3aa00cd1ea",
+                {
+                    center: [35.79526126311406, -78.7497823023319],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fbf9c80e6d124f04847772461c66df5f = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c431f117baa244c5bc305d3aa00cd1ea);
+        
+    
+            var marker_2519c858fe594887a295abc12289d47f = L.marker(
+                [35.780551, -78.650113],
+                {}
+            ).addTo(map_c431f117baa244c5bc305d3aa00cd1ea);
+        
+    
+        var popup_a5200111c2de45fea60732bda30fea75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d667f740cc1d42f0b84697c131e96f47 = $(`<div id="html_d667f740cc1d42f0b84697c131e96f47" style="width: 100.0%; height: 100.0%;">NC Asian Americans Together</div>`)[0];
+            popup_a5200111c2de45fea60732bda30fea75.setContent(html_d667f740cc1d42f0b84697c131e96f47);
+        
+
+        marker_2519c858fe594887a295abc12289d47f.bindPopup(popup_a5200111c2de45fea60732bda30fea75)
+        ;
+
+        
+    
+    
+            var marker_da87f6d8d7b647cd91c68cc843feca39 = L.marker(
+                [35.77483323, -78.78100426],
+                {}
+            ).addTo(map_c431f117baa244c5bc305d3aa00cd1ea);
+        
+    
+        var popup_f8ca93f071d14f8ea5421518d578aba6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b11348d70a64d748b2ce280d460033b = $(`<div id="html_2b11348d70a64d748b2ce280d460033b" style="width: 100.0%; height: 100.0%;">Association of Asian-American Professionals, RTP</div>`)[0];
+            popup_f8ca93f071d14f8ea5421518d578aba6.setContent(html_2b11348d70a64d748b2ce280d460033b);
+        
+
+        marker_da87f6d8d7b647cd91c68cc843feca39.bindPopup(popup_f8ca93f071d14f8ea5421518d578aba6)
+        ;
+
+        
+    
+    
+            var marker_939567f9de58476f856a6340d8d2fc10 = L.marker(
+                [35.76160014, -78.79017181],
+                {}
+            ).addTo(map_c431f117baa244c5bc305d3aa00cd1ea);
+        
+    
+        var popup_14d8f220c4cc4f30a82933072a9165c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87d8f8756f7946af8327b1344e85d9f6 = $(`<div id="html_87d8f8756f7946af8327b1344e85d9f6" style="width: 100.0%; height: 100.0%;">Triangle Area Chinese American Society</div>`)[0];
+            popup_14d8f220c4cc4f30a82933072a9165c1.setContent(html_87d8f8756f7946af8327b1344e85d9f6);
+        
+
+        marker_939567f9de58476f856a6340d8d2fc10.bindPopup(popup_14d8f220c4cc4f30a82933072a9165c1)
+        ;
+
+        
+    
+    
+            var marker_996c7f4c812f4cf2a6e4bbab9f2c7246 = L.marker(
+                [35.82636866, -78.82571198],
+                {}
+            ).addTo(map_c431f117baa244c5bc305d3aa00cd1ea);
+        
+    
+        var popup_5f1418dd94be49b1ac1d8ac0b2577cc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_100a1081ff19459ca05be09623b4bcaf = $(`<div id="html_100a1081ff19459ca05be09623b4bcaf" style="width: 100.0%; height: 100.0%;">Asian Focus NC</div>`)[0];
+            popup_5f1418dd94be49b1ac1d8ac0b2577cc2.setContent(html_100a1081ff19459ca05be09623b4bcaf);
+        
+
+        marker_996c7f4c812f4cf2a6e4bbab9f2c7246.bindPopup(popup_5f1418dd94be49b1ac1d8ac0b2577cc2)
+        ;
+
+        
+    
+    
+            var marker_974d6d063be94b119ed2789df8520c2c = L.marker(
+                [35.86212375, -78.8195052],
+                {}
+            ).addTo(map_c431f117baa244c5bc305d3aa00cd1ea);
+        
+    
+        var popup_ea0c6c23ce964a11ad71042ee9e1a129 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9c01f5046334ca294e3f8c8a749a946 = $(`<div id="html_e9c01f5046334ca294e3f8c8a749a946" style="width: 100.0%; height: 100.0%;">Carolina China Council</div>`)[0];
+            popup_ea0c6c23ce964a11ad71042ee9e1a129.setContent(html_e9c01f5046334ca294e3f8c8a749a946);
+        
+
+        marker_974d6d063be94b119ed2789df8520c2c.bindPopup(popup_ea0c6c23ce964a11ad71042ee9e1a129)
+        ;
+
+        
+    
+    
+            var marker_793f6d7f5c0d4e0e9a19f7d7dee88e66 = L.marker(
+                [38.90358231, -77.037713],
+                {}
+            ).addTo(map_c431f117baa244c5bc305d3aa00cd1ea);
+        
+    
+        var popup_f39c62ac58d64201af2940e1071bd8c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1481c28610c4b838797ddbaa2afa135 = $(`<div id="html_b1481c28610c4b838797ddbaa2afa135" style="width: 100.0%; height: 100.0%;">Asian Americans Advancing Justice</div>`)[0];
+            popup_f39c62ac58d64201af2940e1071bd8c2.setContent(html_b1481c28610c4b838797ddbaa2afa135);
+        
+
+        marker_793f6d7f5c0d4e0e9a19f7d7dee88e66.bindPopup(popup_f39c62ac58d64201af2940e1071bd8c2)
+        ;
+
+        
+    
+    
+            var marker_b6f3972263124fe39fd1693def093229 = L.marker(
+                [35.79677873, -78.65965452],
+                {}
+            ).addTo(map_c431f117baa244c5bc305d3aa00cd1ea);
+        
+    
+        var popup_5c6570fbe2424082b823aae6203ceadd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3747dbef957441cda359f7106853622b = $(`<div id="html_3747dbef957441cda359f7106853622b" style="width: 100.0%; height: 100.0%;">Kiran</div>`)[0];
+            popup_5c6570fbe2424082b823aae6203ceadd.setContent(html_3747dbef957441cda359f7106853622b);
+        
+
+        marker_b6f3972263124fe39fd1693def093229.bindPopup(popup_5c6570fbe2424082b823aae6203ceadd)
+        ;
+
+        
+    
+    
+            var marker_d7f94eb74584473aa7c8fb0d4cfbc9e9 = L.marker(
+                [35.90208106, -78.8136643],
+                {}
+            ).addTo(map_c431f117baa244c5bc305d3aa00cd1ea);
+        
+    
+        var popup_f17d711ed94246ae887961e8203d4384 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b605fe8513a468092217691048ea55d = $(`<div id="html_1b605fe8513a468092217691048ea55d" style="width: 100.0%; height: 100.0%;">NC China Center</div>`)[0];
+            popup_f17d711ed94246ae887961e8203d4384.setContent(html_1b605fe8513a468092217691048ea55d);
+        
+
+        marker_d7f94eb74584473aa7c8fb0d4cfbc9e9.bindPopup(popup_f17d711ed94246ae887961e8203d4384)
+        ;
+
+        
+    
+    
+            var marker_3975418cb57d44f1abe6070736c323bf = L.marker(
+                [35.21628012, -80.82208769],
+                {}
+            ).addTo(map_c431f117baa244c5bc305d3aa00cd1ea);
+        
+    
+        var popup_a4fa4b6638444cc1948275e0d05c8445 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_041a3d7e4e5a4bc8a7d4e5fbb04d8c96 = $(`<div id="html_041a3d7e4e5a4bc8a7d4e5fbb04d8c96" style="width: 100.0%; height: 100.0%;">Carolinas Asian-American Chamber of Commerce</div>`)[0];
+            popup_a4fa4b6638444cc1948275e0d05c8445.setContent(html_041a3d7e4e5a4bc8a7d4e5fbb04d8c96);
+        
+
+        marker_3975418cb57d44f1abe6070736c323bf.bindPopup(popup_a4fa4b6638444cc1948275e0d05c8445)
+        ;
+
+        
+    
+    
+            var marker_6ca654be3bb540589a262dfddf48f967 = L.marker(
+                [35.76166979, -78.79008598],
+                {}
+            ).addTo(map_c431f117baa244c5bc305d3aa00cd1ea);
+        
+    
+        var popup_326f58c66e31419f9e716d65c72b2b91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42fc5e66915b446483b45ebf5d6141c3 = $(`<div id="html_42fc5e66915b446483b45ebf5d6141c3" style="width: 100.0%; height: 100.0%;">Chinese-American Friendship Association</div>`)[0];
+            popup_326f58c66e31419f9e716d65c72b2b91.setContent(html_42fc5e66915b446483b45ebf5d6141c3);
+        
+
+        marker_6ca654be3bb540589a262dfddf48f967.bindPopup(popup_326f58c66e31419f9e716d65c72b2b91)
+        ;
+
+        
+    
+    
+            var marker_8f427d8eddb349269837da5cf705af81 = L.marker(
+                [35.79526126, -78.7497823],
+                {}
+            ).addTo(map_c431f117baa244c5bc305d3aa00cd1ea);
+        
+    
+        var popup_519814db8f14438887d99e4ebb5a61f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6872296341f4ff5bfd4f09da77539b0 = $(`<div id="html_b6872296341f4ff5bfd4f09da77539b0" style="width: 100.0%; height: 100.0%;">NC Chinese Business Association</div>`)[0];
+            popup_519814db8f14438887d99e4ebb5a61f1.setContent(html_b6872296341f4ff5bfd4f09da77539b0);
+        
+
+        marker_8f427d8eddb349269837da5cf705af81.bindPopup(popup_519814db8f14438887d99e4ebb5a61f1)
+        ;
+
+        
+    
+    
+            var marker_b5871c1e22204267a233d2e0278fad62 = L.marker(
+                [35.90658158, -79.02535936],
+                {}
+            ).addTo(map_c431f117baa244c5bc305d3aa00cd1ea);
+        
+    
+        var popup_c29b1e27607c429ca126f539a6035c5b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d56fb94229d47a680a5b55eb063e5aa = $(`<div id="html_5d56fb94229d47a680a5b55eb063e5aa" style="width: 100.0%; height: 100.0%;">American School of Asian Culture	</div>`)[0];
+            popup_c29b1e27607c429ca126f539a6035c5b.setContent(html_5d56fb94229d47a680a5b55eb063e5aa);
+        
+
+        marker_b5871c1e22204267a233d2e0278fad62.bindPopup(popup_c29b1e27607c429ca126f539a6035c5b)
+        ;
+
+        
+    
+    
+            var marker_0b13462b22c442e99c567b84cc31db6a = L.marker(
+                [35.23504694, -80.84327192],
+                {}
+            ).addTo(map_c431f117baa244c5bc305d3aa00cd1ea);
+        
+    
+        var popup_880eb753773343cc8ba1343d75ec0168 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62189208cf6343459358640fa796c15c = $(`<div id="html_62189208cf6343459358640fa796c15c" style="width: 100.0%; height: 100.0%;">Saathee Magazine</div>`)[0];
+            popup_880eb753773343cc8ba1343d75ec0168.setContent(html_62189208cf6343459358640fa796c15c);
+        
+
+        marker_0b13462b22c442e99c567b84cc31db6a.bindPopup(popup_880eb753773343cc8ba1343d75ec0168)
+        ;
+
+        
+    
+    
+            var marker_795018137e8d438ba4ecbbcf4f13e254 = L.marker(
+                [35.90771242, -78.75007371],
+                {}
+            ).addTo(map_c431f117baa244c5bc305d3aa00cd1ea);
+        
+    
+        var popup_073354a7fb6e4468bf11146519b2f292 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ede53e1d09c485fb9ff132c64865fb5 = $(`<div id="html_3ede53e1d09c485fb9ff132c64865fb5" style="width: 100.0%; height: 100.0%;">Philippine American Association of North Carolina Inc.	</div>`)[0];
+            popup_073354a7fb6e4468bf11146519b2f292.setContent(html_3ede53e1d09c485fb9ff132c64865fb5);
+        
+
+        marker_795018137e8d438ba4ecbbcf4f13e254.bindPopup(popup_073354a7fb6e4468bf11146519b2f292)
+        ;
+
+        
+    
+    
+            var marker_6965aa5fe04141e4a57a9c9addf3c074 = L.marker(
+                [34.00931253, -78.14612509],
+                {}
+            ).addTo(map_c431f117baa244c5bc305d3aa00cd1ea);
+        
+    
+        var popup_e13d808e08ef4fa6b28a2cb495550c89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ef24a3d3dd9425db3ed5f1bab20d245 = $(`<div id="html_0ef24a3d3dd9425db3ed5f1bab20d245" style="width: 100.0%; height: 100.0%;">Thai Buddhist Monastery	</div>`)[0];
+            popup_e13d808e08ef4fa6b28a2cb495550c89.setContent(html_0ef24a3d3dd9425db3ed5f1bab20d245);
+        
+
+        marker_6965aa5fe04141e4a57a9c9addf3c074.bindPopup(popup_e13d808e08ef4fa6b28a2cb495550c89)
+        ;
+
+        
+    
+    
+            var marker_c4bb4a8f408e4fbdb5cfdf2abf63ee1b = L.marker(
+                [35.84045644, -78.59991429],
+                {}
+            ).addTo(map_c431f117baa244c5bc305d3aa00cd1ea);
+        
+    
+        var popup_192f00dbfd224c29a894efa0f10fde26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47e1685bcc084fa1a1f789e6069302fd = $(`<div id="html_47e1685bcc084fa1a1f789e6069302fd" style="width: 100.0%; height: 100.0%;">Vietnamese American Association of Raleigh	</div>`)[0];
+            popup_192f00dbfd224c29a894efa0f10fde26.setContent(html_47e1685bcc084fa1a1f789e6069302fd);
+        
+
+        marker_c4bb4a8f408e4fbdb5cfdf2abf63ee1b.bindPopup(popup_192f00dbfd224c29a894efa0f10fde26)
+        ;
+
+        
+    
+    
+            var marker_1f44647f85ca40cc922c8daebedc6945 = L.marker(
+                [35.91405963, -78.87967075],
+                {}
+            ).addTo(map_c431f117baa244c5bc305d3aa00cd1ea);
+        
+    
+        var popup_16e2d621fa0d434c9319135089e8a53f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91876c0a6058481ea7e8d02145654781 = $(`<div id="html_91876c0a6058481ea7e8d02145654781" style="width: 100.0%; height: 100.0%;">Center for International Understanding	</div>`)[0];
+            popup_16e2d621fa0d434c9319135089e8a53f.setContent(html_91876c0a6058481ea7e8d02145654781);
+        
+
+        marker_1f44647f85ca40cc922c8daebedc6945.bindPopup(popup_16e2d621fa0d434c9319135089e8a53f)
+        ;
+
+        
+    
+    
+            var marker_4894297d02fc463aa4f472e3bc06a522 = L.marker(
+                [35.21092763, -80.75986053],
+                {}
+            ).addTo(map_c431f117baa244c5bc305d3aa00cd1ea);
+        
+    
+        var popup_1dee82a6575547648b99ab28f0ad2acd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe070421de924f48be528672640bbb68 = $(`<div id="html_fe070421de924f48be528672640bbb68" style="width: 100.0%; height: 100.0%;">Southeast Asian Coalition</div>`)[0];
+            popup_1dee82a6575547648b99ab28f0ad2acd.setContent(html_fe070421de924f48be528672640bbb68);
+        
+
+        marker_4894297d02fc463aa4f472e3bc06a522.bindPopup(popup_1dee82a6575547648b99ab28f0ad2acd)
+        ;
+
+        
+    
+</script>
