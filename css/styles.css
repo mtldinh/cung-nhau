@@ -2,6 +2,14 @@ body {
   background-color: #F4D591;
 }
 
+
+/*Change on a specific elements*/
+#container .child1 {
+  font-family:  12 Avenir 95 Black 09173;
+  font-size: 40rem;
+  color:  #AA2423;
+  text-align:center;
+}
 .topnav {
   float: right;
 }
