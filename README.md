@@ -9,4 +9,6 @@
 <p>"cùng nhau" is the Vietnamese word for "together." It is imperative to come together as a community to support AAPI individuals, especially women and
 the elderly, who have disproportionally received a large amount of violence. </p>
 
+<p>Access our website <a href=https://mtldinh.github.io/cung-nhau/>here</a>.
+
 <p>This project is created for DiamondHacks NCSU 2021 by Minh-Thu Dinh, Namrata Rajaraman, Cynthia Rios, and Chitra Srinivasan.</p>
