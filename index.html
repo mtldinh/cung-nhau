@@ -11,13 +11,77 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <link href="css/simple-sidebar.css" rel="stylesheet">
-
+  <link href=' https://bigfontsite.com/fonts/12-avenir-95-black-09173.html' rel='stylesheet' type='text/css'>
   <link rel="icon" href="images/favicon_folder/favicon.ico">
 
   <title>cùng nhau</title>
   <style>
+    @font-face {
+      font-family: '12-Avenir-95-Black-09173';
+      src: url('fonts/12-avenir-95-block-09173.tff');
+    }
+    @font-face {
+      font-family: 'Baskerville';
+      src: url('fonts/Baskerville-Bold.otf');
+    }
+    .btn-index{
+      min-height: 200px;
+    }
     body {
       background-color: #F4D591;
+    }
+    button-text{
+      color: #AA2423;
+      background: white;
+      font-size: 25px;
+      font-weight: bold;
+      padding:3px;
+    }
+    div .custom-nav{
+      width:70%;
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+    h2{
+      padding-top: 20%;
+      padding-left: 20%;
+      padding-right: 20%;
+      font-family: "12-Avenir-95-Black-09173", Courier, monospace;
+      font-size: 35px;
+      color: #AA2423 !important;
+    }
+    h3{
+      padding: 20%;
+      font-family: "12-Avenir-95-Black-09173", Courier, monospace;
+      font-size: 20px;
+    }
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    nav{
+      width:25%;
+    }
+    nav .navbar-nav li a{
+      color: #AA2423 !important;
+      font-size: 40px;
+      font-family: "Baskerville", Courier, monospace;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    ul {
+        display: flex;
+        align-items: stretch; /* Default */
+        justify-content: space-between;
+        width: 70%;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        display: block;
+        flex: 0 1 auto; /* Default */
+        list-style-type: none;
     }
   </style>
 </head>
@@ -25,10 +89,6 @@
   @font-face {
     font-family: "12-avenir-95-black-09173";
     src: url("fonts/12-avenir-95-black-09173.ttf");
-  }
-
-  .12-avenir {
-    font-family: "12-avenir-95-black-09173";
   }
 
   @font-face {
@@ -47,57 +107,54 @@
   <div class="d-flex" id="wrapper">
 
     <!-- Sidebar -->
-    <div class="bg-light border-right" id="sidebar-wrapper">
-      <div class="sidebar-heading">Start Bootstrap </div>
-      <div class="list-group list-group-flush">
-        <a href="#" class="list-group-item list-group-item-action bg-light">Dashboard</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Shortcuts</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Overview</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Events</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
-      </div>
-    </div>
+    <nav id="sidebar" style="padding-top: 50px;">
+      <img src="logos/Artboard 1.png"/>
+      <h2>
+        how can you support AAPI folks in 2021?
+      </h2>
+      <h3>
+        made with love by team lorem ipsum
+      </h3>
+    </nav>
     <!-- /#sidebar-wrapper -->
 
     <!-- Page Content -->
-    <div id="page-content-wrapper">
+    <div id="page-content-wrapper" class="custom-nav">
+      <center>
+        <nav class="navbar navbar-expand-lg">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto  mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">home<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-        <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-          </ul>
+        <div class="container-fluid">
+          <button type="button" class="btn btn-index btn-lg btn-block" style="background:url('images/readings.png')!important;">
+            <button-text>readings</button-text>
+          </button>
+          <br>
+          <button type="button" class="btn btn-index btn-lg btn-block" style="background:url('images/mental_health.png')!important;">
+            <button-text>direct action</button-text>
+          </button>
+          <br>
+          <button type="button" class="btn btn-index btn-lg btn-block" style="background:url('images/organizations.png')!important;">
+            <button-text>mental health resources</button-text>
+          </button>
+          <br>
+          <button type="button" class="btn btn-index btn-lg btn-block" style="background:url('images/donations.png')!important;">
+            <button-text>donations and mutual aid</button-text>
+          </button>
         </div>
-      </nav>
-
-      <div class="container-fluid">
-        <h1 class="mt-4">Simple Sidebar</h1>
-        <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
-        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>. The top navbar is optional, and just for demonstration. Just create an element with the <code>#menu-toggle</code> ID which will toggle the menu when clicked.</p>
-      </div>
+      </center>
     </div>
     <!-- /#page-content-wrapper -->
 
